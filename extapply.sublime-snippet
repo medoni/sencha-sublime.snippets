@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Ext.apply(${1:object}, ${2:config});
+]]></content>
+    <tabTrigger>apply</tabTrigger>
+    <scope>source.js</scope> 
+    <description>Ext.apply()</description>
+</snippet>

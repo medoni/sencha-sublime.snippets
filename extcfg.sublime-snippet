@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${3:description}
+ * @type {${4:type}} 
+ */
+${1:name}: ${2:value},
+]]></content>
+    <tabTrigger>ecfg</tabTrigger>
+    <scope>source.js</scope> 
+    <description>config:null,</description>
+</snippet>

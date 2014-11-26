@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/**
+ *
+ */
+Ext.define('${1:MyNamespace}.${2}.${TM_FILENAME/(.+)\..+|.*/$1/:name}', {
+    extend: 'Ext.${3:Component}',
+
+    requires: [
+        '${4}',
+    ]
+});
+]]></content>
+    <tabTrigger>extclass</tabTrigger>
+    <scope>source.js</scope> 
+    <description>Ext.define()</description>
+</snippet>

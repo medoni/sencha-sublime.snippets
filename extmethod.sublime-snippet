@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${3:description}
+ */
+${1:myfunc}: function(${2}) {
+    var me = this;
+
+    ${4:console.log('$1');}
+}
+]]></content>
+    <tabTrigger>function</tabTrigger>
+    <scope>source.js</scope> 
+    <description>myfunc: function() {},</description>
+</snippet>
