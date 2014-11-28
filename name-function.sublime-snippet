@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function ${1:myfunc}(${2:args}) {
+    ${3:console.log("");}
+}
+]]></content>
+    <tabTrigger>nfunction</tabTrigger>
+    <scope>source.js</scope> 
+    <description>Named function()</description>
+</snippet>

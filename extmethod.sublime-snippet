@@ -9,7 +9,7 @@ ${1:myfunc}: function(${2}) {
     ${4:console.log('$1');}
 }
 ]]></content>
-    <tabTrigger>function</tabTrigger>
+    <tabTrigger>efunction</tabTrigger>
     <scope>source.js</scope> 
     <description>myfunc: function() {},</description>
 </snippet>
